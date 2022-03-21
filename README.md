@@ -28,6 +28,15 @@ You should already have [App::cpanminus][].
 To execute the task, run through these steps:
 
 ```sh
+mkdir perl-modules
+cd perl-modules
+curl -LO https://raw.githubusercontent.com/johannessen/perl-modules/main/cpanfile
+cpanm --installdeps .
+```
+
+To also build the task distribution, instead run:
+
+```sh
 git clone https://github.com/johannessen/perl-modules
 cd perl-modules
 cpanm Dist::Zilla
