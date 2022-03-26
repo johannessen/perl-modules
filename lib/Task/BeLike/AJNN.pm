@@ -155,8 +155,6 @@ used in example code
 
 =pkgroup hpd
 
-requires mysql_config(1)
-
 =pkg DBI
 
 =pkg DBD::MariaDB
@@ -207,13 +205,11 @@ F<pegel2svg.pl>
 
 =pkgroup ajnn.de: 1874J, 1929J, 2093J (and possibly others)
 
-requires mysql_config(1)
-
 =pkg Mojolicious
 
 =pkg DBI
 
-=pkg DBD::mysql
+=pkg DBD::MariaDB
 
 
 

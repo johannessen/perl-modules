@@ -10,7 +10,6 @@ requires "Carp::Always" => "0";
 requires "Convert::Binary::C" => "0.04";
 requires "Cpanel::JSON::XS" => "0";
 requires "DBD::MariaDB" => "0";
-requires "DBD::mysql" => "0";
 requires "DBI" => "0";
 requires "Date::Format" => "0";
 requires "Date::Gregorian" => "0";
