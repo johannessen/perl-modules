@@ -1,5 +1,10 @@
 Revision history for Task::BeLike::AJNN
 
+v5.34.0 - 2022-05-03
+
+ - Add Mac::PropertyList
+ - Add Path::Tiny
+
 v5.30.4 - 2022-03-26
 
  - Switch from DBD::mysql to DBD::MariaDB

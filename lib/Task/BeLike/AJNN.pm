@@ -3,7 +3,7 @@ use warnings;
 
 package Task::BeLike::AJNN;
 # ABSTRACT: Install modules used by AJNN
-our $VERSION = 'v5.30.3';
+our $VERSION = 'v5.34.0';
 
 # Versioning:
 # - Major/minor version follows the Perl version, e.g. 5.30.x
@@ -51,6 +51,8 @@ These might be useful for quick one-liners or throw-away scripts.
 
 C<< -ML<ojo> >> one-liners
 
+=pkg Path::Tiny
+
 =pkg File::Rename
 
 Rename a bunch of files by applying C<s///> expressions.
@@ -58,6 +60,9 @@ Rename a bunch of files by applying C<s///> expressions.
 =pkg Feature::Compat::Try
 
 =pkg Object::Pad 0.57 C<:does()>
+
+=pkg Mac::PropertyList
+
 
 
 
@@ -95,7 +100,7 @@ Rename a bunch of files by applying C<s///> expressions.
 
 =pkg Dist::Zilla::Plugin::VersionFromModule
 
-=pkg Dist::Zilla::PluginBundle::Author::AJNN
+=pkg Dist::Zilla::PluginBundle::Author::AJNN 0.0203 cpan_release
 
 =pkg Archive::Tar::Wrapper
 
